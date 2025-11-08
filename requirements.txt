@@ -2,7 +2,7 @@
 #env
 python-dotenv==1.1.1
 
-#pytest
+#test
 colorama==0.4.6
 iniconfig==2.1.0
 packaging==25.0
@@ -10,6 +10,8 @@ pluggy==1.6.0
 Pygments==2.19.2
 pytest==8.4.2
 pytest-django==4.11.1
+coverage==7.10.7
+pytest-factoryboy==2.8.1
 
 #Django
 sqlparse==0.5.3
@@ -17,3 +19,14 @@ tzdata==2025.2
 djangorestframework==3.16.1
 Django==4.2
 asgiref==3.9.1
+django-mptt==0.18.0
+
+#API_Documation
+drf-spectacular==0.28.0
+uritemplate==4.2.0
+rpds-py==0.27.1
+PyYAML==6.0.3
+jsonschema-specifications==2025.9.1
+jsonschema==4.25.1
+inflection==0.5.1
+
